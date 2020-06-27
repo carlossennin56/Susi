@@ -41,6 +41,8 @@
 ***********/
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800');
+@import url("https://fonts.googleapis.com/css?family=Playfair+Display:700|Roboto:300,300i,400,500,600");
+
 @font-face
 {
 	font-family: 'Beyond';
@@ -421,7 +423,7 @@ section
 }
 .main_nav_col
 {
-	height: 143px;
+	height: 80px;
 	-webkit-transition: all 400ms ease;
 	-moz-transition: all 400ms ease;
 	-ms-transition: all 400ms ease;
@@ -665,7 +667,7 @@ section
 {
 	display: inline-block;
 	position: relative;
-	font-family: 'Beyond';
+	font-family: 'Beyond', opentype;
 	font-size: 36px;
 	color: #FFFFFF;
 	font-weight: 400;
@@ -1052,23 +1054,27 @@ section
 }
 .search_item:first-child
 {
-	width: 30.453%;
+	width: 18.453%;
 }
 .search_item:nth-child(2)
 {
-	width: 13.961%;
+	width: 18.453%;
 }
 .search_item:nth-child(3)
 {
-	width: 13.961%;
+	width: 10.961%;
 }
 .search_item:nth-child(4)
 {
-	width: 9.947%;
+	width: 10.961%;
 }
 .search_item:nth-child(5)
 {
-	width: 9.947%;
+	width: 5.947%;
+}
+.search_item:nth-child(6)
+{
+	width: 5.947%;
 }
 .search_item div
 {
